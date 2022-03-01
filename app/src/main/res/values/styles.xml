@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="heading">
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="body">
+        <item name="android:textSize">@dimen/medium_font_size</item>
+    </style>
+    <style name="footer">
+        <item name="android:textSize">@dimen/small_font_size</item>
+    </style>
+
+    <style name="AppTheme.Home.Row.Text" parent="Theme.TADATest">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AppTheme.PhotoDetails" parent="Theme.TADATest">
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="AppTheme.PhotoDetails.Title" parent="AppTheme.PhotoDetails">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="AppTheme.PhotoDetails.Label" parent="AppTheme.PhotoDetails">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.GeneralInfo" parent="Theme.TADATest">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.GeneralInfo.Title" parent="AppTheme.GeneralInfo">
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

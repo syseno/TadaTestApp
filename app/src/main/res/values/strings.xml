@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TADATest</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Welcome</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+
+    <string name="title_home_fragment">Mars Rover Photos</string>
+    <string name="title_home">Home</string>
+    <string name="title_info">General Info</string>
+    <string name="title_details_fragment">Photo\'s Detailed Info</string>
+    <string name="no_data_msg">No data available</string>
+    <string name="nasa_mars_rover_photos_lbl">NASA MARS ROVER PHOTOS</string>
+    <string name="rover_label_text">Rover:</string>
+    <string name="earth_date_label_text">Earth\'s Date:</string>
+    
+    <string name="feature_login_hint_username">Username</string>
+    <string name="feature_login_hint_password">Password</string>
+    <string name="feature_login_title">Login</string>
+    <string name="feature_login_no_account">Don\'t have account? Register</string>
+    <string name="feature_register_title">Register</string>
+    <string name="feature_register_tnc_agree">I Agree with Term and Condition</string>
+    <string name="feature_register_have_account">Already have an Account? Login</string>
+    <string name="msg_error_user_name_not_filled">Username must be filled</string>
+    <string name="msg_error_password_not_filled">Password must be filled</string>
+    <string name="msg_error_checkbox_tnc_not_checked">You have to agree with this</string>
+    <string name="msg_error_username_and_password_not_match">Username and Password did not match</string>
+    <string name="msg_no_data_to_load">There is no data to load</string>
+    <string name="label_log_out">Logout</string>
+
+</resources>

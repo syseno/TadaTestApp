@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+    <TextView
+        android:id="@+id/titleRegister"
+        style="@style/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/space_x36"
+        android:text="@string/feature_register_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inputUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x24"
+        android:layout_marginVertical="@dimen/space_x36"
+        android:hint="@string/feature_login_hint_username"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleRegister" />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x24"
+        android:layout_marginVertical="@dimen/space_x16"
+        android:hint="@string/feature_login_hint_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputUsername" />
+
+    <CheckBox
+        android:id="@+id/cbTnc"
+        android:layout_width="@dimen/space_x32"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x16"
+        android:layout_marginVertical="@dimen/space_x8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputPassword" />
+
+    <TextView
+        style="@style/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x8"
+        android:text="@string/feature_register_tnc_agree"
+        app:layout_constraintBottom_toBottomOf="@id/cbTnc"
+        app:layout_constraintLeft_toRightOf="@id/cbTnc"
+        app:layout_constraintTop_toTopOf="@id/cbTnc" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x24"
+        android:layout_marginVertical="@dimen/space_x16"
+        android:text="@string/feature_register_title"
+        android:textAllCaps="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cbTnc" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        style="@style/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/space_x24"
+        android:layout_marginVertical="@dimen/space_x16"
+        android:text="@string/feature_register_have_account"
+        android:textColor="@color/black"
+        android:textColorLink="@color/url"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonRegister" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
